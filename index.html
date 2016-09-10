@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- Theme Made By www.w3schools.com - No Copyright -->
+	<title>RECIPLEASE</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Economica" rel="stylesheet">
+	<link rel="stylesheet" href="recipe.css">
+	<script src="recipe.js"></script>
+</head>
+
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+	<div class="navbar-header">
+	  <button type="button" class="navbar-toggle" id="navbar" data-toggle="collapse" data-target="#myNavbar">
+		<span class="icon-bar" style="background-color: white"></span>
+		<span class="icon-bar" style="background-color: white"></span>
+		<span class="icon-bar" style="background-color: white"></span>
+	  </button>
+	  <a class="navbar-brand" href="index.html" style="font-family: Economica; font-size: 22px;">RECIPLEASE</a>
+	</div>
+	<div class="collapse navbar-collapse" id="myNavbar">
+	  <ul class="nav navbar-nav navbar-right">
+		<li><a href="resources.html" target="_blank">RESOURCES</a></li>
+		<li><a href="donate.html" target="_blank">DONATE</a></li>
+		<li><a href="about.html" target="_blank">ABOUT US</a></li>
+	  </ul>
+	</div>
+  </div>
+</nav>
+
+<div class="jumbotron text-center" id="stuff">
+  <h1 style="margin-bottom: 30px; font-size: 60px; font-family: Economica; letter-spacing: 5px;">RECIPLEASE</h1>
+  <p>Enter ingredients that you have to see recipes of what you can make!</p>
+  <form class="form-inline" action="Javascript:doIt()" text-center>
+  <input id="mytext" type="search" style="height: 20px;" class="form-control" size="50" placeholder="Enter ingredients" required >
+  <button type="submit" class="btn btn-danger" >Recipe!</button>
+  </form>
+  <p style="font-size: 14px; margin-top: 5px;">(separate each ingredient with a comma)</p>
+</div>
+
+<!-- Container (Portfolio Section) -->
+<div id="portfolio" class="container-fluid text-center">
+	<h2 style="margin-bottom: -5px; margin-top: -50px; color:#ff8b8e;" id="dashes"></h2><br>
+	<h2 style="margin-bottom: -5px; margin-top: -20px;" id="showrec"></h2><br>
+	<div id="output"></div>
+</div>
+
+<footer class="container-fluid text-center" style="background-color: white;">
+	<a href="#top" title="To Top" class="backtotop"><span class="glyphicon glyphicon-chevron-up" style="color: #bfe6eb"></span></a>
+	<a href="#top" title="To Top" class="backtotop"><p>Back to the Top</p></a>
+</footer>
+
+</body>
+</html>
+

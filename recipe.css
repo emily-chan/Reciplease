@@ -230,8 +230,6 @@ input[type="search"]::-webkit-search-cancel-button {
 }
 
 .divs{
-	/*margin-left:-20%;
-	margin-right:-50%;*/
 	width: 100%;
 	height:100%;
 	text-align:left;
@@ -265,8 +263,6 @@ input[type="search"]::-webkit-search-cancel-button {
 }
 
 .divs{
-	margin-left:-50%;
-	margin-right:-50%;
 	width: 100%;
 	height:100%;
 	text-align:left;
@@ -288,7 +284,6 @@ input[type="search"]::-webkit-search-cancel-button {
 
 @media (max-width: 340px){
 	#showrec{
-		/*font-size: 20vw;*/
 		font-size: 20px;
 	}
 	.crop {
